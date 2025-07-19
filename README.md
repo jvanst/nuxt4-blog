@@ -1,66 +1,75 @@
-<div id="top"></div>
+# Nuxt Minimal Starter
 
-<br />
-<div align="center">
-  <h3 align="center">Nuxt3 Blog</h3>
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-  <p align="center">
-     A minimal blog built with Nuxt3, deployed on Cloudflare Workers, with content supplied from Sanity.io.
-  </p>
-</div>
+## Setup
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+Make sure to install dependencies:
 
-Figured it was that time again, time to re-engineer my personal space on the internet. I wanted to convert my static 'about me' page, into a blog with dynamic content. Nuxt v3 stood out because its underlying nitro engine supports Worker based deployments. This was exciting because Cloudflare workers 'free' tier is practically unlimited. Now no money shall be shelled out for those few people that stop by my blog at https://jamesvan.ca.
+```bash
+# npm
+npm install
 
-My hope is this will inspire others to use Nuxt3 with Cloudflare workers, as my experience has been very enjoyable thus far.
+# pnpm
+pnpm install
 
-### Built With
+# yarn
+yarn install
 
-* [Nuxt3](https://v3.nuxtjs.org)
-* [Tailwind](https://tailwindcss.com)
-* [Cloudflare Workers](https://workers.cloudflare.com)
-* [Sanity.io](https://www.sanity.io)
+# bun
+bun install
+```
 
-### Outstanding
+## Development Server
 
-Here's hoping I can get around polishing these remaining items:
-- [ ] Make this repository template ready for nuxt cli
-- [ ] Fix @sanity/client in Workers environment
-- [ ] Write github actions for CI to Cloudflare Workers
+Start the development server on `http://localhost:3000`:
 
-<!-- GETTING STARTED -->
-## Getting Started
+```bash
+# npm
+npm run dev
 
-### Installation
+# pnpm
+pnpm dev
 
-1. Clone the repo
-   ```sh
-   git clone git@github.com:jvanst/nuxt3-blog.git
-   ```
-4. Install dependencies
-   ```sh
-   yarn install
-   ```
-2. Start the application
-   ```sh
-   yarn dev
-   ```
-   
- ### Production & Deployment
- 
- Assuming deploying to CF workers:
- 
- 1. Build
- ```
- NITRO_PRESET=cloudflare yarn build
- ```
- 
- 2. Deploy with [wrangler](https://github.com/cloudflare/wrangler)
- ```
- wrangler publish
- ```
+# yarn
+yarn dev
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+# bun
+bun run dev
+```
 
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

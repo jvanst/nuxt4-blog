@@ -17,10 +17,10 @@ useSeoMeta({
 
 
 <template>
-  <main class="max-w-lg mx-auto py-6 sm:py-14" aria-label="Homepage main content">
+  <main class="max-w-lg mx-auto py-6 sm:py-14 px-4 md:px-0" aria-label="Homepage main content">
     <header class="flex flex-col items-center" aria-label="Personal introduction">
       <img
-        class="w-24 h-24 hidden md:block rounded-full object-cover object-center"
+        class="w-24 h-24 block rounded-full object-cover object-center"
         src="/avatar.png"
         alt="James avatar"
         width="96"

@@ -21,7 +21,7 @@ useSeoMeta({
 
 <template>
   <main
-    class="max-w-2xl mx-auto py-6 sm:py-14"
+    class="max-w-2xl mx-auto py-6 sm:py-14 px-4 md:px-0"
     aria-label="Post content"
   >
     <NuxtLink to="/">Go home</NuxtLink>

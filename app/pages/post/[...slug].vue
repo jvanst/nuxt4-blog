@@ -29,5 +29,7 @@ useSeoMeta({
     <div class="prose dark:prose-invert mt-2">
       <ContentRenderer v-if="post" :value="post" />
     </div>
+
+    <AppFooter class="mt-8" />
   </main>
 </template>

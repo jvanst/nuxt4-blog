@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import AppFooter from '~/components/AppFooter.vue';
+
 const personalDescription =
   "A Staff Software Developer with over eight years of experience building scalable web applications and leading high-impact technical initiatives.";
 
@@ -102,5 +104,7 @@ useSeoMeta({
         </li>
       </ul>
     </section>
+
+    <AppFooter class="mt-8" />
   </main>
 </template>

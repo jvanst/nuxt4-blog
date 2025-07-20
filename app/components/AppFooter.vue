@@ -4,7 +4,7 @@
       <a href="https://github.com/jvanst" target="_blank" rel="noopener" aria-label="GitHub" class="hover:text-primary">
         <Icon name="uil:github" size="20" />
       </a>
-      <a href="https://linkedin.com/in/james-vansteenkiste" target="_blank" rel="noopener" aria-label="LinkedIn" class="hover:text-primary">
+      <a href="https://www.linkedin.com/in/jamesvansteenkiste/" target="_blank" rel="noopener" aria-label="LinkedIn" class="hover:text-primary">
         <Icon name="uil:linkedin" size="20" />
       </a>
     </div>
